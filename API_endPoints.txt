@@ -1,0 +1,25 @@
+## API end_points
+
+1.http://localhost:8080/SpringMvc/api/save 			- post
+2.http://localhost:8080/SpringMvc/api/getStudents		- get
+3.http://localhost:8080/SpringMvc/api/updateStudent		- put
+4.http://localhost:8080/SpringMvc/api/getStudentById/5		- get
+5.http://localhost:8080/SpringMvc/api/deleteStudent/5		- delete
+6.http://localhost:8080/SpringMvc/api/pagination?pageNo=1	- get
+
+## Json body
+
+1.
+  {
+    "name" : "ABC",
+    "mobile" : 9988776655,
+    "address" : "bangalore"
+  }
+
+3.
+  {
+    "id" : "5",
+    "name" : "XYZ",
+    "mobile" : 9988776655,
+    "address" : "bangalore"
+  }
